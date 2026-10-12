@@ -1,0 +1,7 @@
+.packages/
+.venv/
+.pio/
+__pycache__/
+.ipynb_checkpoints/
+results/_*_saved_model/
+*.log

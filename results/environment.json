@@ -1,0 +1,27 @@
+{
+  "dataset": "smoke_detection_iot.csv",
+  "rows": 62630,
+  "train_rows": 50104,
+  "test_rows": 12526,
+  "features": [
+    "Temperature[C]",
+    "Humidity[%]",
+    "TVOC[ppb]",
+    "eCO2[ppm]",
+    "Raw H2",
+    "Raw Ethanol",
+    "Pressure[hPa]",
+    "PM1.0",
+    "PM2.5",
+    "NC0.5",
+    "NC1.0",
+    "NC2.5"
+  ],
+  "random_state": 42,
+  "inference_repeats": 5,
+  "python": "3.13.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.8.0",
+  "xgboost": "3.4.1"
+}
